@@ -48,11 +48,11 @@ export default function NavbarComponent() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className={`me-auto navbarCenter ${scrolling ? 'scrolled' : ''}`}>
-                            <Nav.Link href="#despre" className={`navbarText ${scrolling ? 'scrolled' : ''}`}>Home</Nav.Link>
-                            <Nav.Link href="#despre" className="navbarText">About</Nav.Link>
-                            <Nav.Link href="#despre" className="navbarText">Services</Nav.Link>
-                            <Nav.Link href="#servicii" className="navbarText">Portofolio</Nav.Link>
-                            <Nav.Link href="#faq" className="navbarText">Pricing</Nav.Link>
+                            <Nav.Link href="#home" className={`navbarText ${scrolling ? 'scrolled' : ''}`}>Home</Nav.Link>
+                            <Nav.Link href="#about" className="navbarText">About</Nav.Link>
+                            <Nav.Link href="#services" className="navbarText">Services</Nav.Link>
+                            <Nav.Link href="#portofolio" className="navbarText">Portofolio</Nav.Link>
+                            <Nav.Link href="#pricing" className="navbarText">Pricing</Nav.Link>
                             <Nav.Link href="#contact" className="navbarText">Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

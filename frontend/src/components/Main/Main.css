@@ -1,12 +1,10 @@
 .containerMain {
+    padding: 0% 10% 0% 10%;
+
     min-height: 100vh;
 
     background: transparent;
     background-image: url("../../assets/images/BackgroundMain.png");
-}
-
-.containerCols {
-    margin: 0% 10% 0% 10% !important;
 }
 
 .imageContainer {

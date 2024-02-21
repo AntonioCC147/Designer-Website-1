@@ -12,10 +12,10 @@ import './Main.css'
 
 export default function Main() {
     return (
-        <div className="containerMain">
+        <div className="containerMain" id="home">
             <NavbarComponent/>
-            <Row className="containerCols">
-            <SocialIcons/>
+            <Row>
+                <SocialIcons/>
                 <Col sm={12} md={6}>
                     <p className="title1Main">Hello, I'm</p>
                     <p className="title2Main">Bogdan Andries</p>
