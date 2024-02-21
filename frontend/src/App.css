@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: open-sans;
+  src: url("./assets/fonts/OpenSans-Regular.ttf");
+}
+
+.open-sans {
+  font-family: open-sans;
+}
