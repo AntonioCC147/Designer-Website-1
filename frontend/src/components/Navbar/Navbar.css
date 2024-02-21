@@ -50,6 +50,10 @@
     transform: scaleX(1);
 }
 
+.navbarText:hover {
+    color: #e8e8e8 !important;
+}
+
 .navbar>.container {
     text-align: right;
 }
@@ -60,6 +64,10 @@
 
 .navbar.scrolled .navbarText {
     color: #00A78E !important;
+}
+
+.navbar.scrolled .navbarText:hover {
+    color: #02c4a7 !important;
 }
 
 .navbarCenter.scrolled {
@@ -76,6 +84,16 @@
 }
 
 @media only screen and (max-width: 1200px) {
+    .navbarText {
+        color: #00A78E !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .navbarCenter {
+        background-color: #F9F9F9;
+    }
+
     .imageLogo {
         width: 10%;
     }
