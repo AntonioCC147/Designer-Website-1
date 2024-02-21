@@ -1,0 +1,63 @@
+.socialBox {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: -7%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50px;
+    height: 200px;
+
+    border-style: solid;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: #00A78E;
+
+    padding: 20px !important;
+}
+
+.socialImage {
+    width: 30px;
+}
+
+.imageBox {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .socialBox {
+        margin-top: 10%;
+        margin-left: 55%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .socialBox {
+        margin-top: 10%;
+        margin-left: 60%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .socialBox {
+        margin-top: 10%;
+        margin-left: 65%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .socialBox {
+        margin-top: 12%;
+        margin-left: 70%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .socialBox {
+        margin-top: 17%;
+        margin-left: 60%;
+    }
+}

@@ -5,15 +5,17 @@ import Button from 'react-bootstrap/Button';
 
 import Avatar from '../../assets/images/Avatar.png';
 
-import './Main.css'
-
 import NavbarComponent from '../Navbar/Navbar';
+import SocialIcons from '../SocialIcons/SocialIcons';
+
+import './Main.css'
 
 export default function Main() {
     return (
         <div className="containerMain">
             <NavbarComponent/>
             <Row className="containerCols">
+            <SocialIcons/>
                 <Col sm={12} md={6}>
                     <p className="title1Main">Hello, I'm</p>
                     <p className="title2Main">Bogdan Andries</p>
