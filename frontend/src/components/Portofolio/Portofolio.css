@@ -4,7 +4,26 @@
     min-height: calc(100vh - 75px);
 
     background: transparent;
-    background-color: #F9F9F9;
+    background-color: #FFFFFF;
+}
+
+.buttonPortofolio {
+    position: absolute;
+    margin-left: 70%;
+
+    padding: 15px 35px 15px 35px !important;
+
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+
+    color: #F9F9F9 !important;
+    border-color: #00A78E !important;
+    background-color: #00A78E !important;
+}
+
+.buttonPortofolio:hover {
+    border-color: #02c4a7 !important;
+    background-color: #02c4a7 !important;
 }
 
 .title1Portofolio {
@@ -19,4 +38,39 @@
     font-weight: bolder;
 
     color: #293651;
+}
+
+.carousel {
+    margin-top: 3%;
+}
+
+.imageCarousel {
+    width: 300px;
+    cursor: pointer !important;
+}
+
+.titleCarousel {
+    margin: 10px 0% 0% 15%;
+
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    color: #293651;
+}
+
+.descriptionCarousel {
+    margin: 0px 0% 0% 15%;
+
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+
+    color: #646787;
+}
+
+@media only screen and (max-width: 500px) {
+    .buttonPortofolio {
+        margin-left: 50%;
+    }
 }

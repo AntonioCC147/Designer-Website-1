@@ -1,7 +1,7 @@
-import './Services.css';
-
 import Line from '../../assets/icons/Line.png';
 import Design from '../../assets/icons/Design.png';
+
+import './Services.css';
 
 export default function Services() {
     return (
@@ -25,8 +25,6 @@ export default function Services() {
                     <p className="cardTitle">Graphic Designer</p>
                     <p className="cardDescription">Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum</p>
                 </div>
-            </div>
-            <div class="containerBox">
                 <div class="cardBox">
                     <img src={Design} className="imageCard" alt="Design"/>
                     <p className="cardTitle">Graphic Designer</p>
