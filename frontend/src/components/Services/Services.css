@@ -1,0 +1,80 @@
+.containerServices {
+    padding: 5% 10% 0% 10%;
+
+    min-height: calc(100vh - 75px);
+
+    background: transparent;
+    background-color: #F9F9F9;
+}
+
+.title1Services {
+    font-size: 1.3rem;
+    font-weight: bolder;
+
+    color: #00A78E;
+}
+
+.title2Services {
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+    color: #293651;
+}
+
+.containerBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardBox {
+    margin: 15px;
+    padding: 30px;
+
+    width: 350px;
+    height: 300px;
+
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px rgb(240, 240, 240);
+
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+.cardBox:hover {
+    background-color: #00A78E;
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: left;
+
+    color: #293651;
+}
+
+.cardDescription {
+    font-size: 1rem;
+    text-align: justify;
+
+    color: #646787;
+}
+
+.cardBox:hover .cardTitle {
+    color: #FFFFFF;
+}
+
+.cardBox:hover .cardDescription {
+    color: #FFFFFF;
+}
+
+.imageCard {
+    margin-bottom: 20px;
+
+    width: 60px;
+}
+
+.cardBox:hover .imageCard {
+    content: url('../../assets/images/AboutAvatar.png')
+}

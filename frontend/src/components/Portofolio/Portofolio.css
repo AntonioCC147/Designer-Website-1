@@ -1,0 +1,22 @@
+.containerPortofolio {
+    padding: 5% 10% 0% 10%;
+
+    min-height: calc(100vh - 75px);
+
+    background: transparent;
+    background-color: #F9F9F9;
+}
+
+.title1Portofolio {
+    font-size: 1.3rem;
+    font-weight: bolder;
+
+    color: #00A78E;
+}
+
+.title2Portofolio {
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+    color: #293651;
+}

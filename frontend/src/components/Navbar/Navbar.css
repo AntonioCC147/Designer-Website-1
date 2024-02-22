@@ -59,7 +59,8 @@
 }
 
 .navbar.scrolled {
-    background-color: #F9F9F9;
+    box-shadow: 0 5px 6px -6px rgba(0, 0, 0, 0.5);
+    background-color: #FFFFFF;
 }
 
 .navbar.scrolled .navbarText {
@@ -72,7 +73,7 @@
 
 .navbarCenter.scrolled {
     margin-top: 10px;
-    background-color: #F9F9F9;
+    background-color: #FFFFFF;
 }
 
 .scrolled .navbarText::after {
