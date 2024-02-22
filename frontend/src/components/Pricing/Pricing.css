@@ -1,0 +1,105 @@
+.containerPricing {
+    position: relative;
+
+    padding: 5% 10% 5% 10%;
+
+    min-height: 100vh;
+
+    background: transparent;
+    background-color: #F8F8F8;
+}
+
+.containerShape {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+.imageShape {
+    float: right;
+}
+
+.title1Pricing {
+    font-size: 1.3rem;
+    font-weight: bolder;
+
+    color: #00A78E;
+}
+
+.title2Pricing {
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+    color: #293651;
+}
+
+.containerBoxPricing {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardBoxPricing {
+    margin: 15px;
+    padding: 30px;
+
+    width: 350px;
+    height: 500px;
+
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px rgb(240, 240, 240);
+
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+.cardBoxPricing:hover {
+    background-color: #00A78E;
+}
+
+.cardPrice {
+    font-size: 2.3rem;
+    font-weight: bolder;
+
+    color: #00A78E;
+}
+
+.cardBoxPricing:hover .cardPrice{
+    color: #293651;
+}
+
+.cardTextBenefits {
+    font-size: 1rem;
+
+    color: #646787;
+}
+
+.cardBoxPricing:hover .cardTextBenefits{
+    color: #FFFFFF;
+}
+
+.imageVerify {
+    width: 20px;
+
+    margin-right: 5%;
+}
+
+@media only screen and (max-width: 950px) {
+    .title1Pricing{
+        padding-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .title1Pricing{
+        padding-top: 30%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .title1Pricing{
+        padding-top: 40%;
+    }
+}
