@@ -3,9 +3,9 @@ import Facebook from '../../assets/icons/Facebook.png';
 
 import './Contact.css'
 
-export default function Footer() {
+export default function Contact() {
     return (
-        <div className="containerFooter text-center d-flex justify-content-center align-items-center flex-column" id="contact">
+        <div className="containerContact text-center d-flex justify-content-center align-items-center flex-column" id="contact">
             <p className="title1Contact">Contact</p>
             <p className="title2Contact">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
             <div className="boxMenuContact">

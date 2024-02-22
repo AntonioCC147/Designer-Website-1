@@ -14,7 +14,7 @@ export default function SocialIcons() {
                 </div>
                 <div className="imageBox">
                     <a href="/">
-                        <img src={Instagram} className="m-auto socialImage" alt="Instagram"/>
+                        <img src={Facebook} className="m-auto socialImage" alt="Instagram"/>
                     </a>
                 </div>
                 <div className="imageBox">
