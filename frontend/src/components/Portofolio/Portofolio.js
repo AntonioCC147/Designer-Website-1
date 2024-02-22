@@ -28,7 +28,7 @@ export default function Portofolio() {
     };
 
     return (
-        <div className="containerPortofolio">
+        <div className="containerPortofolio" id="portofolio">
             <Button className="buttonPortofolio">All Works</Button>
             <p className="title1Portofolio">Portofolio</p>
             <p className="title2Portofolio">Latest Projects</p>

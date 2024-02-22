@@ -1,0 +1,86 @@
+.containerFooter {
+    padding: 5% 10% 0% 10%;
+
+    min-height: calc(100vh - 75px);
+
+    background: transparent;
+    background-color: #00A78E;
+}
+
+.title1Contact {
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+    color: #FFFFFF;
+}
+
+.title2Contact {
+    margin-bottom: -30px;
+
+    font-size: 1.3rem;
+    font-weight: bolder;
+
+    color: #646787;
+}
+
+.title3Contact {
+    font-size: 3rem;
+    font-weight: bolder;
+
+    color: #293651;
+}
+
+.boxMenuContact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin-top: 5%;
+}
+
+.menuContact {
+    display: inline;
+    padding-top: -20px;
+    padding: 20px;
+
+    font-size: 1rem;
+    font-weight: bolder;
+
+    color: #FFFFFF;
+}
+
+.menuContact:hover {
+    color: #293651;
+}
+
+.socialImageContact {
+    padding: 0px 10px 30px 10px;
+
+    width: 70px;
+}
+
+.copyRight {
+    padding: 3% 0% 0% 0%;
+
+    font-size: 1rem;
+    font-weight: bolder;
+
+    color: #293651;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .title3Contact{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .title3Contact{
+        font-size: 1.5rem;
+    }
+}

@@ -1,3 +1,5 @@
+import Button from 'react-bootstrap/Button';
+
 import Shape from '../../assets/images/Shape.png';
 import Line from '../../assets/icons/Line.png';
 import Verify from '../../assets/icons/Verify.png';
@@ -44,6 +46,9 @@ export default function Pricing() {
                         <img src={NotVerify} className="imageVerify" alt="Verify"/>
                         <span className="cardTextBenefits">Serviciu oferit</span>
                     </div>
+                    <div className="text-center">
+                        <Button className="buttonPricing">Choose Plan</Button>
+                    </div>
                 </div>
                 <div class="cardBoxPricing" style={{marginTop: "25px", marginBottom: "50px"}}>
                     <p className="cardTitle">Standard</p>
@@ -74,6 +79,9 @@ export default function Pricing() {
                         <img src={NotVerify} className="imageVerify" alt="Verify"/>
                         <span className="cardTextBenefits">Serviciu oferit</span>
                     </div>
+                    <div className="text-center">
+                        <Button className="buttonPricing">Choose Plan</Button>
+                    </div>
                 </div>
                 <div className="cardBoxPricing" style={{marginTop: "0%"}}>
                     <p className="cardTitle">Premium</p>
@@ -103,6 +111,9 @@ export default function Pricing() {
                     <div style={{paddingBottom: "15px"}}>
                         <img src={NotVerify} className="imageVerify" alt="Verify"/>
                         <span className="cardTextBenefits">Serviciu oferit</span>
+                    </div>
+                    <div className="text-center">
+                        <Button className="buttonPricing">Choose Plan</Button>
                     </div>
                 </div>
             </div>

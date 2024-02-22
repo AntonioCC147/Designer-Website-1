@@ -32,7 +32,7 @@ export default function NavbarComponent() {
         window.addEventListener('scroll', handleScroll);
         window.addEventListener('resize', handleResize);
 
-        handleResize(); // Verificăm dimensiunea ferestrei când componenta este montată
+        handleResize();
 
         return () => {
             window.removeEventListener('scroll', handleScroll);

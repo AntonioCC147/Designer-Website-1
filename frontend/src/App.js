@@ -5,7 +5,7 @@ import About from './components/About/About';
 import Services from './components/Services/Services';
 import Portofolio from './components/Portofolio/Portofolio';
 import Pricing from './components/Pricing/Pricing';
-import Footer from './components/Footer/Footer';
+import Footer from './components/Contact/Contact';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -17,6 +17,7 @@ export default function App() {
             <Services/>
             <Portofolio/>
             <Pricing/>
+            <Footer/>
         </div>
     )
 }

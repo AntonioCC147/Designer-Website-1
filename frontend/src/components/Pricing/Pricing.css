@@ -45,7 +45,7 @@
     padding: 30px;
 
     width: 350px;
-    height: 500px;
+    height: 550px;
 
     text-align: left;
     border-radius: 5px;
@@ -66,6 +66,10 @@
     color: #00A78E;
 }
 
+.cardBoxPricing:hover .cardTitle{
+    color: #FFFFFF;
+}
+
 .cardBoxPricing:hover .cardPrice{
     color: #293651;
 }
@@ -84,6 +88,24 @@
     width: 20px;
 
     margin-right: 5%;
+}
+
+.buttonPricing {
+    margin-top: 10px;
+    padding: 15px 35px 15px 35px !important;
+
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+
+    color: #F9F9F9 !important;
+    border-radius: 50px !important;
+    border-color: #00A78E !important;
+    background-color: #00A78E !important;
+}
+
+.cardBoxPricing:hover .buttonPricing {
+    color: #293651 !important;
+    background-color: #FFFFFF !important;
 }
 
 @media only screen and (max-width: 950px) {
