@@ -22,7 +22,7 @@ export default function Contact() {
                 <a href="#portofolio"><p className="menuContact">Portofolio</p></a>
                 <a href="#pricing"><p className="menuContact">Pricing</p></a>
             </div>
-            <p className="copyRight">© {new Date().getFullYear()} Copyright | Website creat de{' '}
+            <p className="copyRight">© {new Date().getFullYear()} Copyright | Website made by{' '}
                 <a href="https://antoniocrantea.software/" target="_blank" style={{color: "#FFFFFF"}} rel="noreferrer">
                     Crantea Antonio-Cristian
                 </a>

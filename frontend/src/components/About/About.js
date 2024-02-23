@@ -1,3 +1,5 @@
+import { useInView } from 'react-intersection-observer';
+
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -9,11 +11,18 @@ import Line from '../../assets/icons/Line.png';
 import './About.css';
 
 export default function About() {
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+        threshold: 0.5,
+    });
+
     return (
         <div className="containerAbout" id="about">
             <Row>
                 <Col xs={12} sm={12} md={6} className="alignCol">
-                    <img src={Avatar} className="imageAbout" alt="Avatar" />
+                    <div ref={ref} className={`imageAboutWrapper ${inView ? 'imageAboutWrapperVisible' : ''}`}>
+                        <img src={Avatar} className="imageAbout" alt="Avatar" />
+                    </div>
                 </Col>
                 <Col xs={12} sm={12} md={6}>
                     <p className="title1About">About</p>
