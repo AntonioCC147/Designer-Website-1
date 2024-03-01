@@ -7,10 +7,15 @@
     background-image: url("../../assets/images/BackgroundMain.png");
 }
 
-.imageContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.imageContainerWrapper {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.imageContainerWrapperVisible {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .imageMain {
