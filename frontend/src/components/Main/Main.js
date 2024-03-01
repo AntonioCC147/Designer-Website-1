@@ -15,7 +15,7 @@ import './Main.css'
 export default function Main() {
     const [ref, inView] = useInView({
         triggerOnce: true,
-        threshold: 0.5,
+        threshold: 0,
     });
 
     return (
@@ -23,7 +23,7 @@ export default function Main() {
             <NavbarComponent/>
             <Row>
                 <SocialIcons/>
-                <Col sm={12} md={6}>
+                <Col sm={12} md={6} ref={ref} className={`textContainerWrapper ${inView ? 'textContainerWrapperVisible' : ''}`}>
                     <p className="title1Main">Hello, I'm</p>
                     <p className="title2Main">Bogdan Andries</p>
                     <p className="title3Main">Professional Freelance Web Designer</p>

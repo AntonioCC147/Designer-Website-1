@@ -103,9 +103,20 @@
     background-color: #00A78E !important;
 }
 
-.cardBoxPricing:hover .buttonPricing {
+.pricingBoxPricing:hover .buttonPricing {
     color: #293651 !important;
     background-color: #FFFFFF !important;
+}
+
+.pricingContainerWrapper {
+    opacity: 0;
+    transform: translateY(150px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.pricingContainerWrapperVisible {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 @media only screen and (max-width: 950px) {

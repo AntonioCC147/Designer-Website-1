@@ -9,11 +9,22 @@
 
 .imageContainerWrapper {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateY(100px);
     transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 .imageContainerWrapperVisible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.textContainerWrapper {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.textContainerWrapperVisible {
     opacity: 1;
     transform: translateX(0);
 }

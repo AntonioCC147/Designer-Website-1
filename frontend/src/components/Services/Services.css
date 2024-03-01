@@ -78,3 +78,14 @@
 .cardBox:hover .imageCard {
     content: url('../../assets/images/AboutAvatar.png')
 }
+
+.boxContainerWrapper {
+    opacity: 0;
+    transform: translateY(150px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.boxContainerWrapperVisible {
+    opacity: 1;
+    transform: translateX(0);
+}

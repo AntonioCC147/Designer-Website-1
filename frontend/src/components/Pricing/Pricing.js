@@ -1,3 +1,5 @@
+import { useInView } from 'react-intersection-observer';
+
 import Button from 'react-bootstrap/Button';
 
 import Shape from '../../assets/images/Shape.png';
@@ -8,6 +10,11 @@ import NotVerify from '../../assets/icons/NotVerify.png';
 import './Pricing.css';
 
 export default function Pricing() {
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+        threshold: 0,
+    });
+
     return (
         <div className="containerPricing text-center" id="pricing">
             <div class="containerShape">
@@ -16,7 +23,7 @@ export default function Pricing() {
             <p className="title1Pricing">Pricing</p>
             <p className="title2Pricing">Pricing Plans</p>
             <img src={Line} alt="Line"/>
-            <div className="containerBoxPricing">
+            <div ref={ref} className={`containerBoxPricing pricingContainerWrapper ${inView ? 'pricingContainerWrapperVisible' : ''}`}>
                 <div class="cardBoxPricing" style={{marginTop: "50px", marginBottom: "25px"}}>
                     <p className="cardTitle">Basic</p>
                     <p className="cardPrice">100 lei</p>
