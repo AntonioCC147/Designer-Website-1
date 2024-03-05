@@ -13,7 +13,7 @@ export default function Contact() {
                 <a href="/"><img src={Facebook} className="m-auto socialImageContact" alt="Instagram"/></a>
                 <a href="/"><img src={Instagram} className="m-auto socialImageContact" alt="Instagram"/></a>
             </div>
-            <p className="title3Contact">0712 345 678</p>
+            <p className="title3Contact">0757 812 662</p>
             <p className="title3Contact">adresamail@gmail.com</p>
             <div className="boxMenuContact">
                 <a href="/"><p className="menuContact">Home</p></a>

@@ -31,27 +31,27 @@ export default function Pricing() {
                     <hr/>
                     <div style={{paddingBottom: "15px"}}>
                         <img src={Verify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <span className="cardTextBenefits">Minimalist logo</span>
                     </div>
                     <div style={{paddingBottom: "15px"}}>
                         <img src={Verify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
-                    </div>
-                    <div style={{paddingBottom: "15px"}}>
-                        <img src={Verify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <span className="cardTextBenefits">Simple design</span>
                     </div>
                     <div style={{paddingBottom: "15px"}}>
                         <img src={NotVerify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <span className="cardTextBenefits">Creative logo</span>
                     </div>
                     <div style={{paddingBottom: "15px"}}>
                         <img src={NotVerify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <span className="cardTextBenefits">Colored design</span>
                     </div>
                     <div style={{paddingBottom: "15px"}}>
                         <img src={NotVerify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <span className="cardTextBenefits">Animated logo</span>
+                    </div>
+                    <div style={{paddingBottom: "15px"}}>
+                        <img src={NotVerify} className="imageVerify" alt="Verify"/>
+                        <span className="cardTextBenefits">Premium design</span>
                     </div>
                     <div className="text-center">
                         <Button className="buttonPricing">Choose Plan</Button>
@@ -64,27 +64,27 @@ export default function Pricing() {
                     <hr/>
                     <div style={{paddingBottom: "15px"}}>
                         <img src={Verify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <span className="cardTextBenefits">Minimalist logo</span>
                     </div>
                     <div style={{paddingBottom: "15px"}}>
                         <img src={Verify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <span className="cardTextBenefits">Simple design</span>
                     </div>
                     <div style={{paddingBottom: "15px"}}>
                         <img src={Verify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <span className="cardTextBenefits">Creative logo</span>
+                    </div>
+                    <div style={{paddingBottom: "15px"}}>
+                        <img src={Verify} className="imageVerify" alt="Verify"/>
+                        <span className="cardTextBenefits">Colored design</span>
                     </div>
                     <div style={{paddingBottom: "15px"}}>
                         <img src={NotVerify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <span className="cardTextBenefits">Animated logo</span>
                     </div>
                     <div style={{paddingBottom: "15px"}}>
                         <img src={NotVerify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
-                    </div>
-                    <div style={{paddingBottom: "15px"}}>
-                        <img src={NotVerify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <span className="cardTextBenefits">Premium design</span>
                     </div>
                     <div className="text-center">
                         <Button className="buttonPricing">Choose Plan</Button>
@@ -97,27 +97,27 @@ export default function Pricing() {
                     <hr/>
                     <div style={{paddingBottom: "15px"}}>
                         <img src={Verify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <span className="cardTextBenefits">Minimalist logo</span>
                     </div>
                     <div style={{paddingBottom: "15px"}}>
                         <img src={Verify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <span className="cardTextBenefits">Simple design</span>
                     </div>
                     <div style={{paddingBottom: "15px"}}>
                         <img src={Verify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <span className="cardTextBenefits">Creative logo</span>
                     </div>
                     <div style={{paddingBottom: "15px"}}>
-                        <img src={NotVerify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <img src={Verify} className="imageVerify" alt="Verify"/>
+                        <span className="cardTextBenefits">Colored design</span>
                     </div>
                     <div style={{paddingBottom: "15px"}}>
-                        <img src={NotVerify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <img src={Verify} className="imageVerify" alt="Verify"/>
+                        <span className="cardTextBenefits">Animated logo</span>
                     </div>
                     <div style={{paddingBottom: "15px"}}>
-                        <img src={NotVerify} className="imageVerify" alt="Verify"/>
-                        <span className="cardTextBenefits">Serviciu oferit</span>
+                        <img src={Verify} className="imageVerify" alt="Verify"/>
+                        <span className="cardTextBenefits">Premium design</span>
                     </div>
                     <div className="text-center">
                         <Button className="buttonPricing">Choose Plan</Button>
