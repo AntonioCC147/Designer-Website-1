@@ -45,7 +45,7 @@
     padding: 30px;
 
     width: 350px;
-    height: 550px;
+    height: 600px;
 
     text-align: left;
     border-radius: 5px;
@@ -103,9 +103,9 @@
     background-color: #00A78E !important;
 }
 
-.pricingBoxPricing:hover .buttonPricing {
-    color: #293651 !important;
+.cardBoxPricing:hover .buttonPricing {
     background-color: #FFFFFF !important;
+    color: #00A78E !important;
 }
 
 .pricingContainerWrapper {
@@ -120,19 +120,25 @@
 }
 
 @media only screen and (max-width: 950px) {
-    .title1Pricing{
+    .cardBoxPricing {
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .title1Pricing {
         padding-top: 10%;
     }
 }
 
 @media only screen and (max-width: 550px) {
-    .title1Pricing{
+    .title1Pricing {
         padding-top: 30%;
     }
 }
 
 @media only screen and (max-width: 400px) {
-    .title1Pricing{
+    .title1Pricing {
         padding-top: 40%;
     }
 }
