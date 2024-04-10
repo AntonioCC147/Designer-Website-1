@@ -40,15 +40,15 @@ export default function About() {
                     </div>
                     <ProgressBar percentage={70} />
                     <div className="containerBar">
-                        <p className="title4About">Skill 1</p>
+                        <p className="title4About">Web Develompent</p>
                         <span className="procentBar">50%</span>
                     </div>
                     <ProgressBar percentage={50} />
                     <div className="containerBar">
-                        <p className="title4About">Skill 2</p>
-                        <span className="procentBar">60%</span>
+                        <p className="title4About">Performance</p>
+                        <span className="procentBar">70%</span>
                     </div>
-                    <ProgressBar percentage={60} />
+                    <ProgressBar percentage={70} />
                 </Col>
             </Row>
         </div>

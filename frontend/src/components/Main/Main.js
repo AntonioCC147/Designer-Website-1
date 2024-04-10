@@ -25,7 +25,7 @@ export default function Main() {
                 <SocialIcons/>
                 <Col sm={12} md={6} ref={ref} className={`textContainerWrapper ${inView ? 'textContainerWrapperVisible' : ''}`}>
                     <p className="title1Main">Hello, I'm</p>
-                    <p className="title2Main">Bogdan Andries</p>
+                    <p className="title2Main">Lorem Ipsum</p>
                     <p className="title3Main">Professional Freelance Web Designer</p>
                     <p className="title4Main">Lorem ipsum dolor sit amet, consetetur sadipscing elitr sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
                     <Button className="buttonMain">Hire me</Button>

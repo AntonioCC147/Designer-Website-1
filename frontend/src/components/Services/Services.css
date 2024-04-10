@@ -76,7 +76,7 @@
 }
 
 .cardBox:hover .imageCard {
-    content: url('../../assets/images/AboutAvatar.png')
+    content: url('../../assets/icons/DesignHover.png')
 }
 
 .boxContainerWrapper {

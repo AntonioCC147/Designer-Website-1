@@ -19,7 +19,17 @@ export default function Services() {
             <div ref={ref} className={`containerBox boxContainerWrapper ${inView ? 'boxContainerWrapperVisible' : ''}`}>
                 <div className="cardBox">
                     <img src={Design} className="imageCard" alt="Design"/>
-                    <p className="cardTitle">Graphic Designer</p>
+                    <p className="cardTitle">Logo Design</p>
+                    <p className="cardDescription">Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum</p>
+                </div>
+                <div className="cardBox">
+                    <img src={Design} className="imageCard" alt="Design"/>
+                    <p className="cardTitle">Signature Design</p>
+                    <p className="cardDescription">Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum</p>
+                </div>
+                <div className="cardBox">
+                    <img src={Design} className="imageCard" alt="Design"/>
+                    <p className="cardTitle">Avatar</p>
                     <p className="cardDescription">Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum</p>
                 </div>
                 <div className="cardBox">
@@ -29,22 +39,12 @@ export default function Services() {
                 </div>
                 <div className="cardBox">
                     <img src={Design} className="imageCard" alt="Design"/>
-                    <p className="cardTitle">Graphic Designer</p>
+                    <p className="cardTitle">Figma Website</p>
                     <p className="cardDescription">Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum</p>
                 </div>
                 <div className="cardBox">
                     <img src={Design} className="imageCard" alt="Design"/>
-                    <p className="cardTitle">Graphic Designer</p>
-                    <p className="cardDescription">Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum</p>
-                </div>
-                <div className="cardBox">
-                    <img src={Design} className="imageCard" alt="Design"/>
-                    <p className="cardTitle">Graphic Designer</p>
-                    <p className="cardDescription">Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum</p>
-                </div>
-                <div className="cardBox">
-                    <img src={Design} className="imageCard" alt="Design"/>
-                    <p className="cardTitle">Graphic Designer</p>
+                    <p className="cardTitle">3D Model</p>
                     <p className="cardDescription">Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum Lorem ipsum is a lorem ipsum</p>
                 </div>
             </div>
