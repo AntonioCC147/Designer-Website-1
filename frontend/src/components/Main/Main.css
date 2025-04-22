@@ -48,6 +48,7 @@
 
     color: #293651;
 }
+
 .title3Main {
     margin-top: 10px;
     font-size: 1.2rem;
@@ -70,7 +71,7 @@
     font-weight: 600 !important;
 
     color: #F9F9F9 !important;
-    border-color: #00A78E !important;
+    border-color: #00937d !important;
     background-color: #00A78E !important;
 }
 
@@ -82,5 +83,11 @@
 @media only screen and (max-width: 770px) {
     .title1Main{
         margin-top: 25%;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .title2Main span {
+        display: block;
     }
 }
