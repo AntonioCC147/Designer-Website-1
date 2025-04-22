@@ -1,8 +1,6 @@
 .containerServices {
     padding: 5% 10% 5% 10%;
 
-    min-height: calc(100vh - 75px);
-
     background: transparent;
     background-color: #F9F9F9;
 }

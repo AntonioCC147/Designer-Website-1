@@ -1,29 +1,8 @@
 .containerPortofolio {
-    padding: 5% 10% 0% 10%;
-
-    min-height: 100vh;
+    padding: 5% 10% 5% 10%;
 
     background: transparent;
     background-color: #FFFFFF;
-}
-
-.buttonPortofolio {
-    position: absolute;
-    margin-left: 70%;
-
-    padding: 15px 35px 15px 35px !important;
-
-    font-size: 1rem !important;
-    font-weight: 600 !important;
-
-    color: #F9F9F9 !important;
-    border-color: #00A78E !important;
-    background-color: #00A78E !important;
-}
-
-.buttonPortofolio:hover {
-    border-color: #02c4a7 !important;
-    background-color: #02c4a7 !important;
 }
 
 .title1Portofolio {

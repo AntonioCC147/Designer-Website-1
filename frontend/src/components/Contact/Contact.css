@@ -1,7 +1,5 @@
 .containerContact {
-    padding: 5% 10% 0% 10%;
-
-    min-height: calc(100vh - 75px);
+    padding: 5% 10% 2% 10%;
 
     background: transparent;
     background-color: #00A78E;
@@ -71,6 +69,12 @@
 
 a {
     text-decoration: none !important;
+}
+
+@media only screen and (max-width: 900px) {
+    .title2Contact {
+        margin-bottom: 0px;
+    }
 }
 
 @media only screen and (max-width: 600px) {

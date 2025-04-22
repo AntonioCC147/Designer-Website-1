@@ -1,5 +1,4 @@
 import Carousel from "react-multi-carousel";
-import Button from 'react-bootstrap/Button';
 
 import Line from '../../assets/icons/Line.png';
 import Project from '../../assets/images/Project.jpg'
@@ -29,7 +28,6 @@ export default function Portofolio() {
 
     return (
         <div className="containerPortofolio" id="portofolio">
-            <Button className="buttonPortofolio">All Works</Button>
             <p className="title1Portofolio">Portofolio</p>
             <p className="title2Portofolio">Latest Projects</p>
             <img src={Line} alt="Line"/>

@@ -1,10 +1,6 @@
 .containerMain {
-    padding: 0% 10% 0% 10%;
-
-    min-height: 100vh;
-
-    background: transparent;
-    background-image: url("../../assets/images/BackgroundMain.png");
+    padding: 0 10%;
+    background: transparent url("../../assets/images/BackgroundMain.png") no-repeat center/cover;
 }
 
 .imageContainerWrapper {
